@@ -1,0 +1,10 @@
+<div class = "one-module row text-center"> 
+    <input class = "input-for-module col-md" type = "text">  
+    <input  class = "input-for-module col-md credits" type = "number">  
+    <select class = "input-for-module col-md grades"> 
+        {% for grade in grades %}
+        <option > {{ grade }} </option>
+        {% endfor %}
+    </select>  
+</div>    
+<a class="cross-icon text-center"><i class="fa fa-close"></i> Remove Above </a>    
